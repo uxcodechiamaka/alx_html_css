@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+    background-color:  #fff8dc;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+    background-color: #f5deb3;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff4500;
+}
